@@ -13,8 +13,6 @@ import {
 } from "react-router-dom";
 function App() {
   return (
-    <div>
-       <Navs />
       <Routes>
         <Route path="/" element={<Home />} />
 
@@ -22,7 +20,6 @@ function App() {
 
         <Route path="*" element={<NotFound/>} />
       </Routes>
-      </div>
   );
 }
 
